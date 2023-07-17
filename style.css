@@ -1,0 +1,39 @@
+.container { 
+    max-width: 400px; 
+    margin: 0 auto; 
+    text-align: center; 
+  }   
+  .imagem { 
+    display: block; 
+    margin: 20px auto; 
+    max-width: 200px; 
+  }   
+  .usuario { 
+    margin-bottom: 15px; 
+    text-align: left; 
+  }   
+  .usuario label { 
+    display: block; 
+    margin-bottom: 5px; 
+  } 
+  .usuario input[type="text"], 
+  .usuario input[type="password"] { 
+    width: 100%; 
+    padding: 10px; 
+    font-size: 16px; 
+  }   
+  .usuario input[type="checkbox"] { 
+    display: inline; 
+    width: auto; 
+    margin-right: 5px; 
+  }    
+  .usuario a { 
+    text-decoration: none; 
+  } 
+  .usuario button { 
+    padding: 10px 20px; 
+    font-size: 16px; 
+  }
+  body {
+    background-image: radial-gradient(circle at -19.64% 62.28%, #dafdff 0, #afe7ff 16.67%, #7ecefb 33.33%, #3cb5f2 50%, #009ce9 66.67%, #0084e0 83.33%, #006ed7 100%);
+  }
